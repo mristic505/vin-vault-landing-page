@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vin Vault</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Wine Enthusiast Buying Guide">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" /> -->
+  <link rel="stylesheet" type="text/css" href="css/slick.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css?ver=1.2">
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script> -->
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js?ver=1.1"></script>
+
+  
+</head>
+<body>
+<!-- <div class="wrapper"> -->
+  <span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <div id="main">
+        <div class="inner">
+          <div class="content">
+            <div id="the_buzz">
+                <div id="slider"> <!-- SLIDER -->
+                    <div class="slide_holder">
+                      <div id="slide_1" class="slide">
+                        <div class="slide_body">“This may be <span>the most serious California boxed wine</span> on the market, showing great flavor concentration and an appetizing texture that's laced with fine-grained tannins.”<img class="slide_image" src="images/buying-guide.png" alt="Wine Enthusiast Buying Guide Best Buys"></div>                  
+                      </div>
+                    </div>
+                    <div class="slide_holder">
+                      <div id="slide_2" class="slide">
+                        <div class="slide_body">Vin Vault is the <span>“Overall Best Tasting Boxed Wine Brand”</span><img class="slide_image" src="images/overall-best-testing.png"></div>
+                      </div>
+                    </div>
+                    <div class="slide_holder">
+                      <div id="slide_3" class="slide">
+                        <div class="slide_body">“Overall, it is nicely balanced and its flavors drift away with an extended finish. <span>A pleasant surprise in a box!</span> A great value. Perfect for a barbecue on a back deck with friends.”<img class="slide_image" src="images/kens-wine-guide.png"></div>
+                      </div>
+                    </div> 
+                    <div class="slide_holder">
+                      <div id="slide_4" class="slide">
+                        <div class="slide_body">Vin Vault NV Merlot <span>Awarded <br>a stunning 91</span><img class="slide_image" src="images/stunning.png"></div>
+                      </div>
+                    </div>
+                    <div class="slide_holder">
+                      <div id="slide_4" class="slide">
+                        <div class="slide_body"><span>“This is the best American red wine in a box I've ever had.</span> <br>It's rich and oaky, with generous dark-cherry flavors and hints of dark chocolate.”<img class="slide_image" src="images/wine-search.png"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="our_winemaker" class="clearfix row-eq-height">
+              <div class="col-md-4 col-sm-6 levo">
+                <div class="holder">
+                  <h3>OUR WINEMAKER</h3>
+                  <p>Chris Willis is an award-winning winemaker and the creative force behind Vin Vault premium wines in a box. Always in search of a new challenge, Chris was drawn to the wine industry for the thrill of having just one chance to craft a new vintage each harvest. With Vin Vault, Chris has pushed himself to craft not only great wine, but wine that actually benefits from the unique qualities of a box.</p>
+                </div>
+              </div>
+              <div class="col-md-8 col-sm-6 desno">
+                <div id="video-container">
+                  <video id="video" width="100%" height="100%" poster="images/poster.png">
+                      <source src="http://brandconnectionsclients.com/vin-vault-landing-page/video/Vin-Vault-Chris-Willis.mp4"
+                      type="video/mp4" />
+                      <source src="video/movie.webm"
+                      type="video/webm" />
+                       </video>
+                  <!-- Video Controls -->
+                  <div id="video_controls_bar">
+                      <button id="playpausebtn"></button>
+                     
+                      <span id="curtimetext">00:00</span>
+                      <input id="seekslider" type="range" min="0" max="100" value="0" step="1"><span id="durtimetext">00:00</span>
+                      <button id="mutebtn"><span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span></button>
+                      <input id="volumeslider" type="range" min="0" max="100" value="100" step="1">
+                      <button id="fullscreenbtn"></button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div id="about" class="clearfix row-eq-height">                          
+              <div class="col-md-4 col-sm-6 desno">
+                <div class="holder">
+                  <h3>ABOUT</h3>
+                  <p>Vin Vault offers a portfolio of award-winning, premium wines that are specially crafted to benefit from the unique qualities of a box. Each of Vin Vault’s six varietals will stay fresh for up to four weeks after opening and offer the delicious complexity you’d expect from even a great bottle of wine.</p>
+                </div>
+              </div>
+              <div class="col-md-8 col-sm-6 levo">
+                <img src="images/about.png">
+              </div>
+            </div>
+
+            <div id="our_craft" class="clearfix row-eq-height">
+              <div class="col-md-4 col-sm-6 levo">
+                <div class="holder">
+                  <h3>OUR CRAFT</h3>
+                  <p>From the beginning, Vin Vault was crafted to be different. When others made premium wine and put it in a box, Vin Vault crafted bolder, more robust wines that thrive with the extra oxygen a box provides. This ensures every glass of Vin Vault features the same delicious complexity you’d expect from even a great bottle of wine.</p>
+                </div>
+              </div>
+              <div class="col-md-8 col-sm-6 desno">
+                <img src="images/glass.png">
+              </div>
+            </div>
+
+            <div id="our_wines">
+              <h3>OUR WINES</h3>
+              <p class="info">CLICK TO LEARN MORE</p>
+              <div id="wine_list">
+                <a target="_blank" href="http://www.vinvaultwines.com/cabernet-sauvignon"><img id="cabernet-suvignon" src="images/cabernet-suvignon.png"></a>
+                <a target="_blank" href="http://www.vinvaultwines.com/chardonnay"><img id="chardonnay" src="images/chardonnay.png"></a>
+                <a target="_blank" href="http://www.vinvaultwines.com/merlot"><img id="merlot" src="images/merlot.jpg"></a>
+                <a target="_blank" href="http://www.vinvaultwines.com/pinot-noir"><img id="pinot-noir" src="images/pinot-noir.png"></a>
+                <a target="_blank" href="http://www.vinvaultwines.com/malbec"><img id="malbec" src="images/malbec.jpg"></a>
+              </div>
+            </div>          
+        </div>
+      </div>
+
+      <div id="mySidenav" class="sidenav">
+          <div class="sidebar_inner">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="http://www.vinvaultwines.com/" target="_blank"><img src="images/vv-logo.png" id="logo"></a>
+              <ul id="menu">
+                <li><a class="active" href="#the_buzz">THE BUZZ</a></li>
+                <li><a href="#our_winemaker">OUR WINEMAKER</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#our_craft">OUR CRAFT</a></li>
+                <li><a href="#our_wines">OUR WINES</a></li>
+                <li><a href="http://www.vinvaultwines.com/where-to-buy" target="_blank">WHERE TO BUY</a></li>
+              </ul>
+              <img src="images/best-tasting.png" id="best-tasting">
+          </div>
+      </div>
+  </div>
+
+  
+<!-- </div> -->
+
+
+
+     
+</body>
+</html> 
