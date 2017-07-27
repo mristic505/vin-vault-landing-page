@@ -378,6 +378,13 @@ video::-webkit-media-controls-panel {
     .slick-dots {
         text-align: center;
     }
+
+}
+@media screen and (max-width: 767px) {
+  #our_winemaker .desno {
+      display: block;
+      float: none;
+    }
 }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
